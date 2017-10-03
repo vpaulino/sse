@@ -3,6 +3,11 @@ this is the repository of an applicational strutured semantic events ontology.
 
 this ontology is represented in JSON-LD and consists on the definition of a vocabulary that defines a set of concepts that are important when logging an application event. 
 
+# Ontology graph
+
+
+|[Ontology Graph](/images/OntologiaSSE.png)
+
 ## Concepts 
 ### Classes 
 
