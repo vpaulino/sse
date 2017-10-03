@@ -1,0 +1,667 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Caller"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Network"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#OperationResult"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Participant"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ParticipantType"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Software"
+    }, {
+      "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This ontology represents the domain of applications routine calls"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ApiInterface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#BrowseCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Browser",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ParticipantType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Caller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ClientLanguage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Constructor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Content",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Create",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Created",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Delegate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Dongle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Ended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#HouseHold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ParticipantType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#HttpEndpoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#base64Binary"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Logic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#MenuOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Method",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Mobile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Network",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#OperationResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Participant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ParticipantType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Profile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ParticipantType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RecordingCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RecordingSeriesSeason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Repository",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#STB",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Server",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Service",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Smartphone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Software",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Tablet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#TagsGroup",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#User",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ParticipantType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Web",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#WebApi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#WebInterface",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#WebSite",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#all",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#authorize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#bootstrap",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#boxApp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#boxAppCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#browse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#bvod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#cancel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#castAndCrew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#channel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#channelSettings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#configuration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#create",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#delete",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#device",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#entersection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#epg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#epgCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#evaluate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#execute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#firstTimeUse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#follow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#get",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#getDetails",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#goTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasAction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasArguments",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCallee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCalleeComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#ComponentType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCalleeDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCalleeRoutine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#RoutineType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCalleeSoftware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCaller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Caller"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCallerDevice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Caller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#DeviceType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasCallerSoftware",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Caller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Callee"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasHouseHold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasNetworkInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Network"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasProfile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasResult",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#OperationResult"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasRoutine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasServer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasSoftwareFeatures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasSoftwareId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasSoftwareType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Software"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#SoftwareType"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasSoftwareVersion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasSubject",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#hasUser",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Participant"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Entity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#houseHold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#image",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#insert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#internet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#keep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#keepAll",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#like",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#list",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#login",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#logout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#manage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#many",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#none",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#personalRecording",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#placeholder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#play",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#playFromBegin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#playLater",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#playNow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#portfolio",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#portfolioProduct",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#preview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#program",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#programEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#promo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#protect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#purchase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#pvod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#query",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#quota",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#record",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#redeem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#remove",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#rental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#resume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#rule",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#search",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#series",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#seriesSeason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#share",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#single",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#startapp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#subscribe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#svod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#tag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#timewarp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#unFollow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#unProtect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#update",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#EventActions" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#user",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#vod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#vodCategory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#voice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#voiceline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#webVideoData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#youtubeVideo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vitorpaulino/ontologies/2017/6/sse#Domain" ]
+} ]
